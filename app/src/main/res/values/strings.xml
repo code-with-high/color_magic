@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SpinnerMagic</string>
+    <string name="select_color">Select color</string>
+
+    <string-array name="color_array">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Almonds</item>
+        <item>Lilac</item>
+        <item>cream</item>
+        <item>whitest</item>
+        <item>brown</item>
+
+    </string-array>"
+</resources>
+
+

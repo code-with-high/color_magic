@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/background_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:background="@color/whitest">
+<!--    android:layout_y="100dp"-->
+
+    <TextView
+        android:id="@+id/select_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_color"
+        android:fontFamily="@font/CustomFont"
+        android:textSize="70dp"
+        android:textStyle="italic"
+        android:textColor="@color/material_dynamic_secondary50"
+
+        />
+<!--    android:layout_gravity="center"-->
+    <Spinner
+        android:id="@+id/color_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tooltipText="spinner"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:scrollbarSize="20sp"
+        android:layout_margin="72dp"
+        android:paddingStart="16dp"
+        android:padding_End="16ddp"
+        android:layout_marginBottom="24dp"
+        android:spinnerMode="dropdown"
+
+/>
+    <!--        one important thing is that spinner mode !-->
+
+
+
+</LinearLayout>
